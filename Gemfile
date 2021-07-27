@@ -5,7 +5,7 @@ source "http://rubygems.org"
 # development dependencies will be added by default to the :development group.
 gemspec
 
-gem 'rails', "~> 3.0"
+gem 'rails', '~> 6.0', '>= 6.0.3.5'
 
 group :test do
   gem 'simplecov', :require => false
